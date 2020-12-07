@@ -8,7 +8,8 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'python account.py'
+        sh 'cp -rf . /var/www'
+	
       }
     }
 
